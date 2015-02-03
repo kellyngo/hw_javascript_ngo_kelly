@@ -24,9 +24,7 @@ numba("university");
 
 
 function inception (callback, value) {
-    if (callback.length > 1) {
-        console.log("Inception is a fantastic movie!")
-    }
+    callback(value);
 }
 
 inception("inception");
