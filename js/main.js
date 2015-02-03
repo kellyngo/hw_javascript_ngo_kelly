@@ -42,3 +42,5 @@ var ronaldReagan = {
 };
 
 var presidents = [barackObama, georgeBush, billClinton, hwBush, ronaldReagan];
+
+console.log( presidents[2].firstName + " " + presidents[2].lastName );
