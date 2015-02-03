@@ -27,4 +27,8 @@ function inception (callback, value) {
     callback(value);
 }
 
+function functionToCall( messageToLog ) {
+    console.log( messageToLog );
+}
+
 inception("inception");
