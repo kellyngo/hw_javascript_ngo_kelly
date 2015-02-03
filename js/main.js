@@ -16,7 +16,7 @@ var numba = function( string ) {
     }
 }
 
-numba(7);
+numba( "7" );
 
 numba("seventy");
 
