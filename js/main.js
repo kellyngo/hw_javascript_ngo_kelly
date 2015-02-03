@@ -31,4 +31,4 @@ function functionToCall( messageToLog ) {
     console.log( messageToLog );
 }
 
-inception("inception");
+inception( functionToCall, "Inception is a fantastic movie!" );
